@@ -5,11 +5,11 @@
   "author": "Matthew Tole <matthewtole@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthewtole/winston-pushover.git",
+    "url": "https://github.com/matthewtole/winston-pushover.git"
   },
   "keywords": ["logging", "winston", "pushover"],
   "dependencies": {
     "pushover-notifications": ">= 0.1.x",
-    "winston": ">= 0.6.x",
+    "winston": ">= 0.6.x"
   }
 }

@@ -1,5 +1,5 @@
 /*
- * winston-pushover.js: Transport for outputting using the Pushover service.
+ * index.js: Transport for outputting using the Pushover service.
  *
  * (c) 2012 Matthew Tole
  */
@@ -41,7 +41,7 @@ Pushover.prototype.log = function (level, msg, meta, callback) {
 
   // Build the Pushover notification object.
   var pushNote = {
-    title: level.substr(0, 1).toUpperCase() + level.substr(1);,
+    title: level.substr(0, 1).toUpperCase() + level.substr(1),
     message: msg,
     timestamp: Math.round((new Date()).getTime() / 1000),
   };
