@@ -1,15 +1,21 @@
 {
   "name": "winston-pushover",
-  "version": "0.1.0",
-  "description": "A transport for Winston that uses the Pushover notifications service.",
+  "version": "0.1.1",
   "author": "Matthew Tole <matthewtole@gmail.com>",
+  "description": "A transport for Winston that uses the Pushover notification service.",
+  "main": "./winston-pushover",
   "repository": {
     "type": "git",
     "url": "https://github.com/matthewtole/winston-pushover.git"
   },
-  "keywords": ["logging", "winston", "pushover"],
+  "keywords": [
+    "logging", 
+    "winston", 
+    "pushover", 
+    "notification"
+  ],
   "dependencies": {
-    "pushover-notifications": ">= 0.1.x",
-    "winston": ">= 0.6.x"
+    "pushover-notifications": "0.1.x",
+    "winston": "0.6.x"
   }
 }
