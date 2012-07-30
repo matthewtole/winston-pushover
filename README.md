@@ -20,6 +20,11 @@ The Pushover transport takes the following options. Both 'userKey' and 'token' a
 * __userKey:__ The user key for the Pushover user who will receive the notifications.
 * __token:__ The Pushover API token for your application. 
 
+## Dependncies
+
+* [pushover-notifications][2]
+* [winston][3]
+
 ## Installation
 
 ### Installing npm (node package manager)
@@ -40,3 +45,5 @@ The Pushover transport takes the following options. Both 'userKey' and 'token' a
 
 [0]: https://github.com/flatiron/winston
 [1]: https://pushover.net/
+[2]: https://github.com/mape/node-pushover
+[3]: https://github.com/flatiron/winston
