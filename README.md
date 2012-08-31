@@ -20,7 +20,7 @@ The Pushover transport takes the following options. Both 'userKey' and 'token' a
 * __userKey:__ The user key for the Pushover user who will receive the notifications.
 * __token:__ The Pushover API token for your application. 
 
-## Dependncies
+## Dependencies
 
 * [pushover-notifications][2]
 * [winston][3]
