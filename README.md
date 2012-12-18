@@ -16,7 +16,6 @@ The Pushover transport takes the following options. Both 'userKey' and 'token' a
 
 * __level:__ Level of messages that this transport should log, defaults to 'info'.
 * __silent:__ Boolean flag indicating whether to suppress output, defaults to false.
-
 * __userKey:__ The user key for the Pushover user who will receive the notifications.
 * __token:__ The Pushover API token for your application. 
 
@@ -45,5 +44,5 @@ The Pushover transport takes the following options. Both 'userKey' and 'token' a
 
 [0]: https://github.com/flatiron/winston
 [1]: https://pushover.net/
-[2]: https://github.com/mape/node-pushover
+[2]: https://github.com/qbit/node-pushover
 [3]: https://github.com/flatiron/winston
