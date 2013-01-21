@@ -26,7 +26,7 @@
   "gitHead": "7f99f2a85db3e6d7520c989606ec8bbd1f012898",
   "main": "./lib/winston-pushover",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "engines": {
     "node": ">= 0.4.0"
