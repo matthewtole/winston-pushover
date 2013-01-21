@@ -6,8 +6,8 @@ require('../index').Pushover;
 var options = {
   level: 'info',
   silent: false,
-  userKey:'<< INSERT USERKEY HERE >>',
-  token:'<< INSERT TOKEN HERE >>'
+  userKey: 'TcCe5tex7lpqFKnR46aiJb6135sa0F',
+  token: 'kBV2sDHg59tdAHJBPLFamp77Id0OWW'
 }
 
 winston.remove(winston.transports.Console)
