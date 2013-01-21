@@ -1,5 +1,6 @@
 --require should
 -R list
 --ui bdd
---timeout 500
+--timeout 2000
+--slow 1000
 --ignore-leaks
