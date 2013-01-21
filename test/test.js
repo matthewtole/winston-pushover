@@ -6,7 +6,7 @@ require('../index').Pushover;
 var options = {
   level: 'info',
   silent: false,
-  userKey: 'TcCe5tex7lpqFKnR46aiJb6135sa0F',
+  userKey: 'MCXRmYXrH1KtJfxGqPxT2d7LNcabzm',
   token: 'kBV2sDHg59tdAHJBPLFamp77Id0OWW'
 }
 
