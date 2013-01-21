@@ -1,0 +1,5 @@
+--require should
+-R list
+--ui bdd
+--timeout 500
+--ignore-leaks
