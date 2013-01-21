@@ -21,7 +21,7 @@ The Pushover transport takes the following options. Both 'userKey' and 'token' a
 
 ## Dependencies
 
-* [pushover-notifications][2]
+* [node-pushover][2]
 * [winston][3]
 
 ## Installation
