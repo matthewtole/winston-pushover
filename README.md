@@ -20,6 +20,7 @@ The Pushover transport takes the following options. Both 'userKey' and 'token' a
 * __silent:__ Boolean flag indicating whether to suppress output, defaults to false.
 * __userKey:__ The user key for the Pushover user who will receive the notifications.
 * __token:__ The Pushover API token for your application. 
+* __sound:__ Which custom notification sound to use (optional).
 
 ## Dependencies
 
