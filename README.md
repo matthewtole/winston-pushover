@@ -39,7 +39,6 @@ The Pushover transport takes the following options. Both 'userKey' and 'token' a
 
 ``` bash
   $ npm install winston
-  $ npm install pushover-notifications
   $ npm install winston-pushover
 ```
 
