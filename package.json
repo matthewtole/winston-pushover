@@ -1,6 +1,6 @@
 {
   "name": "winston-pushover",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "Matthew Tole <matthewtole@gmail.com>",
   "description": "A transport for Winston that uses the Pushover notification service.",
   "main": "./winston-pushover",
@@ -15,8 +15,10 @@
     "notification"
   ],
   "dependencies": {
-    "pushover-notifications": "0.1.2",
-    "winston": "0.6.2"
+    "pushover-notifications": "~0.1.2"
+  },
+  "peerDependencies": {
+    "winston": "~0.6.2"
   },
   "devDependencies": {
     "mocha": "*",
