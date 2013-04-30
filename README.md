@@ -1,6 +1,7 @@
 # winston-pushover
 
 [![Build Status](https://travis-ci.org/matthewtole/winston-pushover.png)](https://travis-ci.org/matthewtole/winston-pushover)
+[![Dependency Status](https://david-dm.org/matthewtole/winston-pushover.png)](https://david-dm.org/matthewtole/winston-pushover)
 
 A [Winston][0] transport that outputs using the [Pushover][1] service. 
 
