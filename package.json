@@ -21,6 +21,7 @@
     "winston": "~0.6.2"
   },
   "devDependencies": {
+    "winston": "",
     "mocha": "*",
     "should": "*"
   },
