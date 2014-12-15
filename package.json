@@ -1,9 +1,9 @@
 {
   "name": "winston-pushover",
-  "version": "0.1.6",
-  "author": "Matthew Tole <matthewtole@gmail.com>",
+  "version": "0.1.7",
+  "author": "Matthew Tole <matthew@matthewtole.com>",
   "description": "A transport for Winston that uses the Pushover notification service.",
-  "main": "./winston-pushover",
+  "main": "./lib/winston-pushover",
   "repository": {
     "type": "git",
     "url": "https://github.com/matthewtole/winston-pushover.git"
@@ -15,24 +15,21 @@
     "notification"
   ],
   "dependencies": {
-    "pushover-notifications": "~0.2.2"
+    "pushover-notifications": "^0.2.2",
+    "winston": "^0.8.3"
   },
-  "peerDependencies": {
-    "winston": "~0.8.3"
-  },
+  "peerDependencies": {},
   "devDependencies": {
-    "winston": "",
-    "mocha": "*",
-    "should": "*"
+    "mocha": "^2.0.1",
+    "should": "^4.4.1"
   },
   "readmeFilename": "README.md",
   "gitHead": "7f99f2a85db3e6d7520c989606ec8bbd1f012898",
-  "main": "./lib/winston-pushover",
   "scripts": {
     "test": "mocha"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 0.8.0"
   },
   "license": "MIT"
 }

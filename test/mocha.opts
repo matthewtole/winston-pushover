@@ -1,5 +1,5 @@
 --require should
 -R list
 --ui bdd
---timeout 2000
---slow 1000
+--timeout 10000
+--slow 5000
