@@ -15,10 +15,10 @@
     "notification"
   ],
   "dependencies": {
-    "pushover-notifications": "~0.1.2"
+    "pushover-notifications": "~0.2.2"
   },
   "peerDependencies": {
-    "winston": "~0.6.2"
+    "winston": "~0.8.3"
   },
   "devDependencies": {
     "winston": "",
