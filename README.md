@@ -1,18 +1,18 @@
 # winston-pushover
 
-[![Build Status](https://travis-ci.org/matthewtole/winston-pushover.png)](https://travis-ci.org/matthewtole/winston-pushover)
-[![Dependency Status](https://david-dm.org/matthewtole/winston-pushover.png)](https://david-dm.org/matthewtole/winston-pushover)
+[![Build Status](https://img.shields.io/travis/matthewtole/winston-pushover.svg?style=flat-square)](https://travis-ci.org/matthewtole/winston-pushover)
+[![Dependency Status](https://img.shields.io/david/matthewtole/winston-pushover.svg?style=flat-square)](https://david-dm.org/matthewtole/winston-pushover)
 
-A [Winston][0] transport that outputs using the [Pushover][1] service. 
+A [Winston][0] transport that outputs using the [Pushover][1] service.
 
 ## Usage
 
 ``` js
   var winston = require('winston');
-  
+
   // Requiring `winston-pushover` will expose `winston.transports.Pushover`
   require('winston-pushover').Pushover;
-  
+
   winston.add(winston.transports.Pushover, options);
 ```
 The Pushover transport takes the following options. Both 'userKey' and 'token' are required:
@@ -20,7 +20,7 @@ The Pushover transport takes the following options. Both 'userKey' and 'token' a
 * __level:__ Level of messages that this transport should log, defaults to 'info'.
 * __silent:__ Boolean flag indicating whether to suppress output, defaults to false.
 * __userKey:__ The user key for the Pushover user who will receive the notifications.
-* __token:__ The Pushover API token for your application. 
+* __token:__ The Pushover API token for your application.
 * __sound:__ Which custom notification sound to use (optional).
 
 ## Dependencies
