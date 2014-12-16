@@ -2,6 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/matthewtole/winston-pushover.svg?style=flat-square)](https://travis-ci.org/matthewtole/winston-pushover)
 [![Dependency Status](https://img.shields.io/david/matthewtole/winston-pushover.svg?style=flat-square)](https://david-dm.org/matthewtole/winston-pushover)
+[![npm Version](https://img.shields.io/npm/v/winston-pushover.svg?style=flat-square)](https://www.npmjs.org/package/winston-pushover)]
 
 A [Winston][0] transport that outputs using the [Pushover][1] service.
 
